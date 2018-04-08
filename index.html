@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Untitled Document</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	
+	<div class="nav">
+		<div class="nav__timer"></div>
+    <h2>Quiz Game</h2>
+  </div>
+  
+  <div class="start start__button">
+    <h2>Start</h2>
+  </div>
+    
+  <!--Categories and difficulty settings-->
+  <div class="settings">
+    <div class="button categories box1">Movies</div>
+    <div class="button categories box2">Television</div>
+    <div class="button categories box3">Music</div>
+    <div class="button categories box4">History</div>
+    <div class="button categories box5">Politics</div>
+    <!--<div class="subheading">
+      <h2>Difficulty:</h2>
+    </div>-->
+    <div class="button difficulty box6">Easy</div>
+    <div class="button difficulty box7">Medium</div>
+    <div class="button difficulty box8">Hard</div>
+  </div>
+  
+  <div class="game">
+    <div class="question">
+			<div class="overlay overlay__correct">Correct</div> 
+			<div class="overlay overlay__incorrect">Incorrect</div>
+      <div class="card card__one">Where did something take palce</div>
+      <div class="card card__two"></div>
+      <div class="card card__three"></div>
+    </div>
+    <div class="answers">
+      <div class="answers__box">it happened here</div>
+      <div class="answers__box"></div>
+      <div class="answers__box"></div>
+      <div class="answers__box"></div>
+    </div>
+  </div>
+	
+	<div class="finish">
+    <div class="finish__container">
+      <h2>You answered:</h2>
+      <h2 class="finish__correct">80% Correct</h2>
+    </div>  
+    <div class="start restart">
+      <h2>Try Again</h2>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
